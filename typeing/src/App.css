@@ -1,0 +1,76 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2em;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  color: #006400;
+}
+
+blockquote {
+  font-size: 1.5em;
+  margin: 1em 0;
+  padding: 0.5em;
+  background: #e8f5e9;
+  border-left: 5px solid #006400;
+  color: #333;
+  border-radius: 4px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2em;
+  margin-top: 1em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #006400;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  margin-top: 1em;
+  color: #fff;
+  background-color: #006400;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #004d00;
+}
+
+.result {
+  font-size: 1.5em;
+  color: #006400;
+  margin: 1em 0;
+}
